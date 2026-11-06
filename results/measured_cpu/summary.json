@@ -1,0 +1,104 @@
+{
+  "equivalence": [
+    {
+      "strategy": "ddp",
+      "steps": 30,
+      "max_rel_diff": 1.1428702042309055e-07,
+      "first": 6.254626035690308,
+      "last": 6.2379326820373535
+    },
+    {
+      "strategy": "fsdp",
+      "steps": 30,
+      "max_rel_diff": 1.1428702042309055e-07,
+      "first": 6.254626035690308,
+      "last": 6.2379326820373535
+    }
+  ],
+  "state": [
+    {
+      "model": "gpt-125m",
+      "strategy": "ddp",
+      "n": 1,
+      "measured": 1989980160.0,
+      "simulated": 1989980160,
+      "err": 0.0,
+      "parts": {
+        "params": 497495040.0,
+        "grads": 497495040.0,
+        "optimizer": 994990080.0,
+        "total": 1989980160.0
+      }
+    },
+    {
+      "model": "gpt-125m",
+      "strategy": "fsdp",
+      "n": 1,
+      "measured": 1989980160.0,
+      "simulated": 1989980160.0,
+      "err": 0.0,
+      "parts": {
+        "params": 497495040.0,
+        "grads": 497495040.0,
+        "optimizer": 994990080.0,
+        "total": 1989980160.0
+      }
+    },
+    {
+      "model": "gpt-125m",
+      "strategy": "fsdp",
+      "n": 2,
+      "measured": 994990080.0,
+      "simulated": 994990080.0,
+      "err": 0.0,
+      "parts": {
+        "params": 248747520.0,
+        "grads": 248747520.0,
+        "optimizer": 497495040.0,
+        "total": 994990080.0
+      }
+    },
+    {
+      "model": "tiny",
+      "strategy": "ddp",
+      "n": 1,
+      "measured": 2233344.0,
+      "simulated": 2233344,
+      "err": 0.0,
+      "parts": {
+        "params": 558336.0,
+        "grads": 558336.0,
+        "optimizer": 1116672.0,
+        "total": 2233344.0
+      }
+    },
+    {
+      "model": "tiny",
+      "strategy": "fsdp",
+      "n": 2,
+      "measured": 1116672.0,
+      "simulated": 1116672.0,
+      "err": 0.0,
+      "parts": {
+        "params": 279168.0,
+        "grads": 279168.0,
+        "optimizer": 558336.0,
+        "total": 1116672.0
+      }
+    },
+    {
+      "model": "tiny",
+      "strategy": "fsdp",
+      "n": 4,
+      "measured": 558336.0,
+      "simulated": 558336.0,
+      "err": 0.0,
+      "parts": {
+        "params": 139584.0,
+        "grads": 139584.0,
+        "optimizer": 279168.0,
+        "total": 558336.0
+      }
+    }
+  ]
+}

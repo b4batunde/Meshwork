@@ -1,0 +1,70 @@
+{
+  "params": {
+    "eta_gemm": 0.632,
+    "eta_attn": 0.459,
+    "eta_mem": 0.75,
+    "t_min_us": 4.0,
+    "cpu_op_us": 9.0,
+    "fsdp_unit_cpu_us": 120.0,
+    "interference": 0.15,
+    "adam_bytes": 64.0,
+    "bucket_mb": 25.0,
+    "first_bucket_mb": 1.0,
+    "act_coeff": 34.0,
+    "logits_bytes": 10.0,
+    "straggler_cv": 0.015,
+    "mem_overhead_gib": 1.5
+  },
+  "validation": [
+    {
+      "id": "calib",
+      "role": "calibration",
+      "what": "GPT-2 124M, 1x H100, PyTorch",
+      "metric": "MFU",
+      "measured": 0.36,
+      "simulated": 0.36007363643644463,
+      "err": 7.363643644464624e-05,
+      "src": "https://jjschwartz.github.io/blog/scaling-gpt2.html"
+    },
+    {
+      "id": "v1",
+      "role": "validation",
+      "what": "GPT-2 124M, 8x H100 DDP, PyTorch",
+      "metric": "MFU",
+      "measured": 0.33,
+      "simulated": 0.35080717281782764,
+      "err": 0.020807172817827624,
+      "src": "https://jjschwartz.github.io/blog/scaling-gpt2.html"
+    },
+    {
+      "id": "v2",
+      "role": "validation",
+      "what": "GPT-2 124M, 1x to 8x H100 DDP scaling efficiency (33% / 36% MFU)",
+      "metric": "efficiency",
+      "measured": 0.9166666666666667,
+      "simulated": 0.9742650872462513,
+      "err": 0.05759842057958453,
+      "src": "https://jjschwartz.github.io/blog/scaling-gpt2.html"
+    },
+    {
+      "id": "v3",
+      "role": "validation",
+      "what": "GPT-2 1.5B, 8x H100 DDP, PyTorch (micro-batch not reported; 8 x16 accum assumed)",
+      "metric": "MFU",
+      "measured": 0.4194,
+      "simulated": 0.4711078221667035,
+      "err": 0.0517078221667035,
+      "src": "https://jjschwartz.github.io/blog/scaling-gpt2.html"
+    },
+    {
+      "id": "v4",
+      "role": "bound",
+      "what": "GPT-2 124M, 1x A100 40GB PCIe, llm.c (hand-fused CUDA, fp16): simulated eager PyTorch should be lower",
+      "metric": "MFU",
+      "measured": 0.49,
+      "simulated": 0.42002764754874083,
+      "err": -0.06997235245125916,
+      "src": "https://github.com/karpathy/llm.c/discussions/481"
+    }
+  ]
+}

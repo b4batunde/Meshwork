@@ -1,0 +1,6 @@
+torch>=2.6        # FSDP2 (torch.distributed.fsdp.fully_shard)
+numpy
+matplotlib
+tiktoken
+datasets          # only for scripts/prepare_data.py --hf
+pytest
