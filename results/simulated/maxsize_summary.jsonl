@@ -1,1 +1,0 @@
-{"nproc": 4, "grad_ckpt": false, "largest": {"ddp": ["gpt-4b", 4234767360], "fsdp": ["gpt-13b", 12846126080]}, "source": "simulated", "gpu": "A100-SXM4-80GB"}

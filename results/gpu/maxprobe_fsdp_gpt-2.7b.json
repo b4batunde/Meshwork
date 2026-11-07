@@ -1,0 +1,68 @@
+{
+  "label": "Measured",
+  "strategy": "fsdp",
+  "model": "gpt-2.7b",
+  "world_size": 4,
+  "params": 2649052160,
+  "config": {
+    "n_layer": 32,
+    "n_head": 32,
+    "d_model": 2560,
+    "vocab_size": 50304,
+    "seq_len": 1024,
+    "dropout": 0.0,
+    "bias": true
+  },
+  "device": "cuda",
+  "device_name": "NVIDIA H100 80GB HBM3",
+  "dtype": "bf16",
+  "micro_batch": 8,
+  "grad_accum": 1,
+  "act_ckpt": true,
+  "tokens_per_step": 32768,
+  "status": "ok",
+  "step_time_s": 0.42347213497851044,
+  "tokens_per_s": 77379.35342938881,
+  "nosync_step_time_s": null,
+  "losses": [
+    11.343563079833984,
+    11.348272323608398,
+    11.400071144104004,
+    11.281734466552734
+  ],
+  "per_rank_memory": [
+    {
+      "param_bytes": 2649052160,
+      "grad_bytes": 2649052160,
+      "optim_bytes": 5298104320,
+      "state_bytes": 10596208640,
+      "cuda_peak_allocated": 18381623808,
+      "cuda_peak_reserved": 19304284160
+    },
+    {
+      "param_bytes": 2649052160,
+      "grad_bytes": 2649052160,
+      "optim_bytes": 5298104320,
+      "state_bytes": 10596208640,
+      "cuda_peak_allocated": 18381623808,
+      "cuda_peak_reserved": 19304284160
+    },
+    {
+      "param_bytes": 2649052160,
+      "grad_bytes": 2649052160,
+      "optim_bytes": 5298104320,
+      "state_bytes": 10596208640,
+      "cuda_peak_allocated": 18381623808,
+      "cuda_peak_reserved": 19304284160
+    },
+    {
+      "param_bytes": 2649052160,
+      "grad_bytes": 2649052160,
+      "optim_bytes": 5298104320,
+      "state_bytes": 10596208640,
+      "cuda_peak_allocated": 18381623808,
+      "cuda_peak_reserved": 19304284160
+    }
+  ],
+  "torch": "2.8.0+cu128"
+}

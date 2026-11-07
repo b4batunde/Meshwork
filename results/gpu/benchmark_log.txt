@@ -1,0 +1,236 @@
+W1106 09:08:24.868000 1150 torch/distributed/run.py:774] 
+W1106 09:08:24.868000 1150 torch/distributed/run.py:774] *****************************************
+W1106 09:08:24.868000 1150 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:08:24.868000 1150 torch/distributed/run.py:774] *****************************************
+/usr/local/lib/python3.12/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.12/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+all_gather      alpha=    57.7 us  busbw=  291.64 GB/s
+all_reduce      alpha=    66.0 us  busbw=  340.12 GB/s
+reduce_scatter  alpha=    57.9 us  busbw=  273.88 GB/s
+W1106 09:08:30.752000 1243 torch/distributed/run.py:774] 
+W1106 09:08:30.752000 1243 torch/distributed/run.py:774] *****************************************
+W1106 09:08:30.752000 1243 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:08:30.752000 1243 torch/distributed/run.py:774] *****************************************
+/usr/local/lib/python3.12/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.12/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.12/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.12/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+all_gather      alpha=    62.3 us  busbw=  356.21 GB/s
+all_reduce      alpha=    69.6 us  busbw=  375.50 GB/s
+reduce_scatter  alpha=    61.0 us  busbw=  358.63 GB/s
+[rank0]:[W1106 09:08:53.927448272 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W1106 09:08:56.141000 1579 torch/distributed/run.py:774] 
+W1106 09:08:56.141000 1579 torch/distributed/run.py:774] *****************************************
+W1106 09:08:56.141000 1579 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:08:56.141000 1579 torch/distributed/run.py:774] *****************************************
+W1106 09:09:07.440000 1680 torch/distributed/run.py:774] 
+W1106 09:09:07.440000 1680 torch/distributed/run.py:774] *****************************************
+W1106 09:09:07.440000 1680 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:09:07.440000 1680 torch/distributed/run.py:774] *****************************************
+W1106 09:09:33.215000 1960 torch/distributed/run.py:774] 
+W1106 09:09:33.215000 1960 torch/distributed/run.py:774] *****************************************
+W1106 09:09:33.215000 1960 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:09:33.215000 1960 torch/distributed/run.py:774] *****************************************
+W1106 09:09:48.548000 2061 torch/distributed/run.py:774] 
+W1106 09:09:48.548000 2061 torch/distributed/run.py:774] *****************************************
+W1106 09:09:48.548000 2061 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:09:48.548000 2061 torch/distributed/run.py:774] *****************************************
+[rank0]:[W1106 09:10:31.645544983 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W1106 09:10:33.845000 2416 torch/distributed/run.py:774] 
+W1106 09:10:33.845000 2416 torch/distributed/run.py:774] *****************************************
+W1106 09:10:33.845000 2416 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:10:33.845000 2416 torch/distributed/run.py:774] *****************************************
+W1106 09:10:50.611000 2517 torch/distributed/run.py:774] 
+W1106 09:10:50.611000 2517 torch/distributed/run.py:774] *****************************************
+W1106 09:10:50.611000 2517 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:10:50.611000 2517 torch/distributed/run.py:774] *****************************************
+W1106 09:11:29.357000 2798 torch/distributed/run.py:774] 
+W1106 09:11:29.357000 2798 torch/distributed/run.py:774] *****************************************
+W1106 09:11:29.357000 2798 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:11:29.357000 2798 torch/distributed/run.py:774] *****************************************
+W1106 09:11:52.343000 2900 torch/distributed/run.py:774] 
+W1106 09:11:52.343000 2900 torch/distributed/run.py:774] *****************************************
+W1106 09:11:52.343000 2900 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:11:52.343000 2900 torch/distributed/run.py:774] *****************************************
+W1106 09:12:16.660000 3036 torch/distributed/run.py:774] 
+W1106 09:12:16.660000 3036 torch/distributed/run.py:774] *****************************************
+W1106 09:12:16.660000 3036 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:12:16.660000 3036 torch/distributed/run.py:774] *****************************************
+W1106 09:12:34.795000 3171 torch/distributed/run.py:774] 
+W1106 09:12:34.795000 3171 torch/distributed/run.py:774] *****************************************
+W1106 09:12:34.795000 3171 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:12:34.795000 3171 torch/distributed/run.py:774] *****************************************
+W1106 09:12:59.087000 3306 torch/distributed/run.py:774] 
+W1106 09:12:59.087000 3306 torch/distributed/run.py:774] *****************************************
+W1106 09:12:59.087000 3306 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:12:59.087000 3306 torch/distributed/run.py:774] *****************************************
+W1106 09:13:39.354000 3443 torch/distributed/run.py:774] 
+W1106 09:13:39.354000 3443 torch/distributed/run.py:774] *****************************************
+W1106 09:13:39.354000 3443 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:13:39.354000 3443 torch/distributed/run.py:774] *****************************************
+W1106 09:15:24.453000 3586 torch/distributed/run.py:774] 
+W1106 09:15:24.453000 3586 torch/distributed/run.py:774] *****************************************
+W1106 09:15:24.453000 3586 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:15:24.453000 3586 torch/distributed/run.py:774] *****************************************
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank0]:   File "<frozen runpy>", line 88, in _run_code
+[rank0]:   File "/workspace/distributed-llm-training/dlt/train.py", line 252, in <module>
+[rank0]:     main()
+[rank0]:   File "/workspace/distributed-llm-training/dlt/train.py", line 173, in main
+[rank0]:     cfg, model, wrapped, opt, dtype = build(args, rank, world, dev)
+[rank0]:                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/distributed-llm-training/dlt/train.py", line 107, in build
+[rank0]:     wrapped = DDP(model, device_ids=[dev.index] if dev.type == "cuda" else None,
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 860, in __init__
+[rank0]:     self._ddp_init_helper(
+[rank0]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 1209, in _ddp_init_helper
+[rank0]:     self.reducer = dist.Reducer(
+[rank0]:                    ^^^^^^^^^^^^^
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 47.87 GiB. GPU 0 has a total capacity of 79.18 GiB of which 29.83 GiB is free. Including non-PyTorch memory, this process has 49.34 GiB memory in use. Of the allocated memory 47.86 GiB is allocated by PyTorch, and 3.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank3]:   File "<frozen runpy>", line 88, in _run_code
+[rank3]:   File "/workspace/distributed-llm-training/dlt/train.py", line 252, in <module>
+[rank3]:     main()
+[rank3]:   File "/workspace/distributed-llm-training/dlt/train.py", line 173, in main
+[rank3]:     cfg, model, wrapped, opt, dtype = build(args, rank, world, dev)
+[rank3]:                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/workspace/distributed-llm-training/dlt/train.py", line 107, in build
+[rank3]:     wrapped = DDP(model, device_ids=[dev.index] if dev.type == "cuda" else None,
+[rank3]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 860, in __init__
+[rank3]:     self._ddp_init_helper(
+[rank3]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 1209, in _ddp_init_helper
+[rank3]:     self.reducer = dist.Reducer(
+[rank3]:                    ^^^^^^^^^^^^^
+[rank3]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 47.87 GiB. GPU 3 has a total capacity of 79.18 GiB of which 29.83 GiB is free. Including non-PyTorch memory, this process has 49.34 GiB memory in use. Of the allocated memory 47.86 GiB is allocated by PyTorch, and 3.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank1]:   File "<frozen runpy>", line 88, in _run_code
+[rank1]:   File "/workspace/distributed-llm-training/dlt/train.py", line 252, in <module>
+[rank1]:     main()
+[rank1]:   File "/workspace/distributed-llm-training/dlt/train.py", line 173, in main
+[rank1]:     cfg, model, wrapped, opt, dtype = build(args, rank, world, dev)
+[rank1]:                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/workspace/distributed-llm-training/dlt/train.py", line 107, in build
+[rank1]:     wrapped = DDP(model, device_ids=[dev.index] if dev.type == "cuda" else None,
+[rank1]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 860, in __init__
+[rank1]:     self._ddp_init_helper(
+[rank1]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 1209, in _ddp_init_helper
+[rank1]:     self.reducer = dist.Reducer(
+[rank1]:                    ^^^^^^^^^^^^^
+[rank1]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 47.87 GiB. GPU 1 has a total capacity of 79.18 GiB of which 29.83 GiB is free. Including non-PyTorch memory, this process has 49.34 GiB memory in use. Of the allocated memory 47.86 GiB is allocated by PyTorch, and 3.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank2]:   File "<frozen runpy>", line 88, in _run_code
+[rank2]:   File "/workspace/distributed-llm-training/dlt/train.py", line 252, in <module>
+[rank2]:     main()
+[rank2]:   File "/workspace/distributed-llm-training/dlt/train.py", line 173, in main
+[rank2]:     cfg, model, wrapped, opt, dtype = build(args, rank, world, dev)
+[rank2]:                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/workspace/distributed-llm-training/dlt/train.py", line 107, in build
+[rank2]:     wrapped = DDP(model, device_ids=[dev.index] if dev.type == "cuda" else None,
+[rank2]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 860, in __init__
+[rank2]:     self._ddp_init_helper(
+[rank2]:   File "/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/distributed.py", line 1209, in _ddp_init_helper
+[rank2]:     self.reducer = dist.Reducer(
+[rank2]:                    ^^^^^^^^^^^^^
+[rank2]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 47.87 GiB. GPU 2 has a total capacity of 79.18 GiB of which 29.83 GiB is free. Including non-PyTorch memory, this process has 49.34 GiB memory in use. Of the allocated memory 47.86 GiB is allocated by PyTorch, and 3.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]:[W1106 09:18:11.724395992 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W1106 09:18:11.573000 3586 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3653 closing signal SIGTERM
+W1106 09:18:11.575000 3586 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3654 closing signal SIGTERM
+W1106 09:18:11.576000 3586 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3656 closing signal SIGTERM
+E1106 09:18:12.155000 3586 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 2 (pid: 3655) of binary: /usr/local/bin/python
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/launcher/api.py", line 277, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+dlt.train FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-11-06_09:18:11
+  host      : 187a4fff1b88
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3655)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+W1106 09:18:13.634000 3724 torch/distributed/run.py:774] 
+W1106 09:18:13.634000 3724 torch/distributed/run.py:774] *****************************************
+W1106 09:18:13.634000 3724 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:18:13.634000 3724 torch/distributed/run.py:774] *****************************************
+W1106 09:18:23.491000 3858 torch/distributed/run.py:774] 
+W1106 09:18:23.491000 3858 torch/distributed/run.py:774] *****************************************
+W1106 09:18:23.491000 3858 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:18:23.491000 3858 torch/distributed/run.py:774] *****************************************
+W1106 09:18:33.571000 3992 torch/distributed/run.py:774] 
+W1106 09:18:33.571000 3992 torch/distributed/run.py:774] *****************************************
+W1106 09:18:33.571000 3992 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:18:33.571000 3992 torch/distributed/run.py:774] *****************************************
+W1106 09:18:44.389000 4126 torch/distributed/run.py:774] 
+W1106 09:18:44.389000 4126 torch/distributed/run.py:774] *****************************************
+W1106 09:18:44.389000 4126 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:18:44.389000 4126 torch/distributed/run.py:774] *****************************************
+W1106 09:18:57.320000 4260 torch/distributed/run.py:774] 
+W1106 09:18:57.320000 4260 torch/distributed/run.py:774] *****************************************
+W1106 09:18:57.320000 4260 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1106 09:18:57.320000 4260 torch/distributed/run.py:774] *****************************************
+{
+  "label": "Measured",
+  "mfu_single_gpt-125m": 0.21925371315707734,
+  "gpt-125m_ddp_w2_scaling_efficiency": 0.9472843032318725,
+  "gpt-125m_ddp_w2_exposed_comm_ms": 0.7973480387590826,
+  "gpt-125m_ddp_w4_scaling_efficiency": 0.9250750516652818,
+  "gpt-125m_ddp_w4_exposed_comm_ms": 1.7958449898287654,
+  "gpt-125m_fsdp_w2_scaling_efficiency": 0.3540724362944607,
+  "gpt-125m_fsdp_w2_exposed_comm_ms": 5.8768360177055,
+  "gpt-125m_fsdp_w4_scaling_efficiency": 0.3434129600362156,
+  "gpt-125m_fsdp_w4_exposed_comm_ms": 8.157472941093147,
+  "gpt-125m_peak_mem_cut_fsdp4_vs_ddp4": 0.21890801065862953,
+  "gpt-125m_state_mem_cut_fsdp4_vs_ddp4": 0.75,
+  "mfu_single_gpt-350m": 0.28790561851798363,
+  "gpt-350m_ddp_w2_scaling_efficiency": 0.9369192709072889,
+  "gpt-350m_ddp_w2_exposed_comm_ms": 4.0499159949831665,
+  "gpt-350m_ddp_w4_scaling_efficiency": 0.9237281097687546,
+  "gpt-350m_ddp_w4_exposed_comm_ms": 5.254992982372642,
+  "gpt-350m_fsdp_w2_scaling_efficiency": 0.4396831032684441,
+  "gpt-350m_fsdp_w2_exposed_comm_ms": 6.651639938354492,
+  "gpt-350m_fsdp_w4_scaling_efficiency": 0.4300524992684342,
+  "gpt-350m_fsdp_w4_exposed_comm_ms": 8.671702002175152,
+  "gpt-350m_peak_mem_cut_fsdp4_vs_ddp4": 0.2879196808253994,
+  "gpt-350m_state_mem_cut_fsdp4_vs_ddp4": 0.75,
+  "max_model_ddp_4gpu": 2649052160,
+  "max_model_fsdp_4gpu": 12848384000,
+  "max_model_ratio": 4.850181583438508
+}
+
+# NOTE: FSDP runs (gpt-*_fsdp_w*.json) were re-run after this log with fused AdamW;
+# the FSDP numbers in the summary above are superseded by results/gpu/summary.json.

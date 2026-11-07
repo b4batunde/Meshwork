@@ -1,0 +1,35 @@
+{
+  "label": "Measured",
+  "strategy": "ddp",
+  "model": "gpt-6.7b",
+  "world_size": 4,
+  "params": 6654402560,
+  "config": {
+    "n_layer": 32,
+    "n_head": 32,
+    "d_model": 4096,
+    "vocab_size": 50304,
+    "seq_len": 1024,
+    "dropout": 0.0,
+    "bias": true
+  },
+  "device": "cuda",
+  "device_name": "NVIDIA H100 80GB HBM3",
+  "dtype": "bf16",
+  "micro_batch": 8,
+  "grad_accum": 1,
+  "act_ckpt": true,
+  "tokens_per_step": 32768,
+  "status": "oom",
+  "step_time_s": null,
+  "tokens_per_s": null,
+  "nosync_step_time_s": null,
+  "losses": [],
+  "per_rank_memory": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "torch": "2.8.0+cu128"
+}
